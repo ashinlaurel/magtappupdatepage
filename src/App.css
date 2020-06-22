@@ -34,7 +34,7 @@
 }
 
 .fourillustration {
-  bottom: -61px;
+  bottom: -45px;
   right: 0;
 }
 
@@ -48,6 +48,46 @@
 
 .heading {
   color: #1e1e1e;
-  font-family: "Gilroy ☞";
   font-family: Helvetica;
+}
+
+.moby {
+  color: #ffffff;
+  font-family: Gilroy;
+  font-weight: 700;
+}
+
+.user {
+  font-family: Gilroy - Bold;
+  font-weight: 700;
+  color: #181819;
+  font-size: 11px;
+  line-height: 8px;
+}
+.ceo {
+  font-family: Gilroy;
+  font-weight: 300;
+  color: #181819;
+  font-size: 11px;
+  line-height: 8px;
+}
+
+.about {
+  color: #181819;
+  font-family: Gilroy;
+  font-size: 8px;
+  font-weight: 300;
+  line-height: 10px;
+}
+.wider {
+  width: 7rem;
+}
+.fonter {
+  font-size: 10px;
+}
+.cardertitle {
+  font-family: Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 10px;
 }

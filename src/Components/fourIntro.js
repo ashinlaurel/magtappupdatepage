@@ -23,6 +23,7 @@ const FourIntroducing = () => {
             <div className="text-white text-sm leading-none font-bold">
               Edit Document
             </div>
+
             <p className="text-xs leading-tight  text-white py-2">
               Edit document, Add text, Highlight text, Outline text, Sign
               Documents and save it as a new document
@@ -32,22 +33,22 @@ const FourIntroducing = () => {
         <div className="flex mt-5 ">
           <div className="mx-2">
             <div className="rounded-full bg-white h-5 w-5 text-sm text-blue-600 text-center">
-              1
+              2
             </div>
           </div>
 
           <div className="">
             <div className="text-white text-sm leading-none font-bold">
-              Edit Document
+              MagTap Mode
             </div>
             <p className="text-xs leading-tight  text-white py-2">
-              Edit document, Add text, Highlight text, Outline text, Sign
-              Documents and save it as a new document
+              Magtapp Mode On (On Icon) Long Press For Visual Meanings Magtapp
+              Mode Off (Off Icon) Select Content To Translate, Listen & Copy.
             </p>
           </div>
         </div>
       </div>
-      <div className="mt-10 absolute fourillustration mr-5 w-64 hidden sm:block">
+      <div className="mt-10 absolute fourillustration mr-5 w-48  sm:block">
         <img src={fourmain} />
       </div>
     </div>

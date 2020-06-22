@@ -1,19 +1,23 @@
 import React from "react";
-import one from "../assets/pcfeatures/theone.png";
 
-const Deskfeatures = () => {
+const Deskfeatures = (props) => {
   //   const featbg = {
   //     background-image: url({ one }),
   //     backgroundPosition: center,
   //   };
   return (
-    <div className="my-20">
-      <div className="flex flex-col items-center justify-center">
-        <div className="heading text-5xl font-bold">1.TranslateAll</div>
+    <div className="my-20 ">
+      <div className="flex flex-col items-center justify-center ">
+        <div className="mx-10 heading text-center text-5xl font-bold">
+          {props.title}
+        </div>
         <div
-          className="p-40 mt-10   bg-contain bg-no-repeat  w-full h-screen"
-          style={{ backgroundImage: `url(${one})` }}
+          className={`mt-10 bg-contain bg-no-repeat  bg-center w-full h-screen ${props.settings}`}
+          style={{ backgroundImage: `url(${props.img})` }}
         ></div>
+        <div className="text-2xl heading mx-36 px-32 py-4 text-center">
+          {props.desc}
+        </div>
       </div>
     </div>
   );

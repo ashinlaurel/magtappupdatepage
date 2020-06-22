@@ -6,26 +6,26 @@ const Welcome = () => {
     <div className=" w-full h-full ">
       <div className="welcomebg w-full h-full ">
         <div className="text-center flex flex-col items-center my-2">
-          <div className="text-2xl lg:hidden text-white font-bold pt-10">
+          <div className="text-2xl lg:hidden header text-white font-bold pt-10">
             Welcome to Magtapp world!
           </div>
           <div className="text-5xl helvetica hidden lg:block  text-white font-bold pt-10">
-            What’ New in MagTapp 2.0?
+            What’s New in MagTapp 2.0?
           </div>
           <div className="text-xs lg:hidden text-white mx-10">
             MagTapp 2.0 is coming with all new features that will make your life
             easier than before stay tuned!
           </div>
-          <div className="text-xl  px-40  helvetica hiddeen lg:block text-white mx-64">
+          <div className="text-xl  px-40  helvetica hidden lg:block text-white mx-64">
             MagTapp is an Empowerment Tool which helps anyone Read and
             Understand Content with the help of a Visual Meaning on Internet or
             in Documents files. MagTapp is a Web Browse with an Inbuilt Image
             Dictionary & Document Reader feature.
           </div>
-          <div className="mx-10 py-5 w-full px-2">
+          <div className="mx-10 py-5 w-full px-2 flex items-center justify-center ">
             <img className="sm:px-5" src={welcomeimg} width="1500" />
           </div>
-          <div className="text-2xl lg:hidden text-white font-bold pt-5">
+          <div className="text-2xl header lg:hidden text-white font-bold pt-5">
             Make choice and have fun!
           </div>
           <div className="text-5xl hidden helvetica lg:block text-white font-bold pt-5">
@@ -35,13 +35,19 @@ const Welcome = () => {
             * Available on Android devices from 5.5, Size varies with the
             device.
           </div>
-          <div className="text-2xl helvetica text-white mx-10">
+          <div className="text-2xl hidden lg:block helvetica text-white mx-10">
             * Available on Android devices from 5.5, Size varies with the
             device.
           </div>
-          <div className="text-xs lg:hidden text-white mx-10 pt-1 pb-5">
-            Watch the video
+          <div className="flex items-center justify-center pb-5">
+            <div className="text-white text-xl  ">
+              <i class="fa fa-play" aria-hidden="true"></i>
+            </div>
+            <div className="text-xs lg:hidden underline text-white mx-1 ">
+              Watch the video
+            </div>
           </div>
+
           <div className="hidden lg:flex flex-row items-center justify-center pt-3 pb-8">
             <div className="text-white text-2xl  px-1">
               <i class="fa fa-play" aria-hidden="true"></i>
