@@ -9,7 +9,7 @@ export default function Navbar({ fixed }) {
         <div className="w-screen mx-auto sm:mx-0 flex flex-wrap items-center justify-between ">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <img
-              className=" inline-block pt-3 w-20 object-scale-down sm:w-40 sm:ml-5 whitespace-no-wrap "
+              className=" inline-block ml-2 pt-3 w-20 object-scale-down sm:w-40 sm:ml-5 whitespace-no-wrap "
               href="#pablo"
               src={NavLogo}
             />
@@ -36,7 +36,7 @@ export default function Navbar({ fixed }) {
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               <li className="nav-item">
                 <a
-                  className="px-3 py-2 flex items-center text-xl  navbuttoncolor leading-snug  hover:opacity-75"
+                  className="px-3 py-2 flex items-center text-base lg:text-xl  navbuttoncolor leading-snug  hover:opacity-75"
                   href="#pablo"
                 >
                   <span className="ml-2">About</span>
@@ -44,7 +44,7 @@ export default function Navbar({ fixed }) {
               </li>
               <li className="nav-item">
                 <a
-                  className="px-3 py-2 flex items-center text-xl  navbuttoncolor leading-snug  hover:opacity-75"
+                  className="px-3 py-2 flex items-center text-base lg:text-xl  navbuttoncolor leading-snug  hover:opacity-75"
                   href="#pablo"
                 >
                   <span className="ml-2">Why Magtapp?</span>
@@ -52,7 +52,7 @@ export default function Navbar({ fixed }) {
               </li>
               <li className="nav-item">
                 <a
-                  className="px-3 py-2 flex items-center text-xl  navbuttoncolor leading-snug  hover:opacity-75"
+                  className="px-3 py-2 flex items-center text-base lg:text-xl  navbuttoncolor leading-snug  hover:opacity-75"
                   href="#pablo"
                 >
                   <span className="ml-2">Our Team</span>
@@ -60,7 +60,7 @@ export default function Navbar({ fixed }) {
               </li>
               <li className="nav-item">
                 <a
-                  className="px-3 py-2 flex items-center text-xl  navbuttoncolor leading-snug  hover:opacity-75"
+                  className="px-3 py-2 flex items-center text-base lg:text-xl  navbuttoncolor leading-snug  hover:opacity-75"
                   href="#pablo"
                 >
                   <span className="ml-2">Contact</span>

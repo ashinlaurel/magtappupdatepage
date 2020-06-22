@@ -10,7 +10,9 @@ const Three = () => {
   return (
     <div className=" w-full h-full mt-10  ">
       <div className="text-center flex flex-col items-center my-2 pt-10">
-        <div className="text-2xl font-bold">What Makes MagTapp Different?</div>
+        <div className="text-2xl font-bold mx-2">
+          What Makes MagTapp Different?
+        </div>
         <div className="text-xs text-black mx-10">
           Our uniqueness lies in our One Tap Visual Meaning Solution which is
           available in 12 Indian Languages and is the First in its kind in the

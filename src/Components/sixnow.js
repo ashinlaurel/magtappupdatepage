@@ -2,7 +2,7 @@ import React from "react";
 import siximg from "../assets/sixnow.png";
 const Sixnow = () => {
   return (
-    <div className="">
+    <div className=" ">
       <div
         className={`bg-contain bg-no-repeat  bg-center w-full h-full mt-5`}
         style={{ backgroundImage: `url(${siximg})` }}

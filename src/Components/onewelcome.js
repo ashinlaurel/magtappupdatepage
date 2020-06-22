@@ -40,7 +40,7 @@ const Welcome = () => {
             device.
           </div>
           <div className="flex items-center justify-center pb-5">
-            <div className="text-white text-xl  ">
+            <div className="lg:hidden text-white text-xl  ">
               <i class="fa fa-play" aria-hidden="true"></i>
             </div>
             <div className="text-xs lg:hidden underline text-white mx-1 ">
