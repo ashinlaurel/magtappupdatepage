@@ -23,3 +23,31 @@
 .cardbg {
   background-color: #495ee1;
 }
+
+.four {
+  background: rgb(64, 116, 234);
+  background: linear-gradient(
+    90deg,
+    rgba(64, 116, 234, 1) 0%,
+    rgba(53, 103, 217, 1) 100%
+  );
+}
+
+.fourillustration {
+  bottom: -61px;
+  right: 0;
+}
+
+.navbuttoncolor {
+  color: #272727;
+}
+
+.helvetica {
+  font-family: Helvetica;
+}
+
+.heading {
+  color: #1e1e1e;
+  font-family: "Gilroy ☞";
+  font-family: Helvetica;
+}

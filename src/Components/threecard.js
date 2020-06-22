@@ -3,7 +3,7 @@ const ThreeCard = (props) => {
   return (
     <div className="cardbg w-40 my-2 mx-2  rounded-lg overflow-hidden shadow-lg flex flex-col items-center">
       <img
-        className="w-20 py-5"
+        className="w-20 object-scale-down py-5"
         src={props.img}
         alt="Sunset in the mountains"
       />

@@ -3,6 +3,7 @@ import ThreeCard from "./threecard";
 import Browser from "../assets/cardimages/browser.png";
 import Magtop from "../assets/cardimages/magbot.png";
 import Tap from "../assets/cardimages/tap.png";
+import Translate from "../assets/cardimages/translate.png";
 import translate from "../assets/cardimages/translate.png";
 
 const Three = () => {
@@ -24,9 +25,9 @@ const Three = () => {
           </button>
         </div>
       </div>
-      <div className="flex flex-wrap mt-10 items-center justify-center ">
+      <div className="flex flex-wrap mt-10  justify-center ">
         <ThreeCard
-          img={Browser}
+          img={Tap}
           title="One Tap Visual 
 Meaning"
           desc="Long press on Words you don't 
@@ -34,28 +35,27 @@ Understand and Experience
 One Tap Visual Meaning"
         />
         <ThreeCard
-          img={Browser}
-          title="One Tap Visual 
-Meaning"
-          desc="Long press on Words you don't 
-Understand and Experience 
-One Tap Visual Meaning"
+          img={Magtop}
+          title="MagBot 
+          Visual Dictionary"
+          desc="MagBot is an Inbuilt Personal 
+          Chatting Visual Dictionary in 
+          MagBot."
         />
         <ThreeCard
           img={Browser}
-          title="One Tap Visual 
-Meaning"
-          desc="Long press on Words you don't 
-Understand and Experience 
-One Tap Visual Meaning"
+          title="MagTapp Browser"
+          desc="earch and Browse Contents 
+          online in our Fast and Light 
+          Web Browser"
         />
         <ThreeCard
-          img={Browser}
-          title="One Tap Visual 
-Meaning"
-          desc="Long press on Words you don't 
-Understand and Experience 
-One Tap Visual Meaning"
+          img={Translate}
+          title="Translate Content"
+          desc="Not just Visual Meanings but 
+          you can even Translate 
+          Documents or Online Content 
+          in MagTapp"
         />
       </div>
     </div>
